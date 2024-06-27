@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background: #fff;
+}
+
+#lessons {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lessons h1 {
+    margin-bottom: 1em;
+}
+
+.lesson-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lesson {
+    background: #e0e0e0;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lesson h2 {
+    margin-top: 0;
+}
+
+.schedule, .pricing, .testimonials {
+    margin-top: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    text-align: left;
+}
+
+table th {
+    background: #f0f0f0;
+}
+
+table td {
+    background: #fff;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#achieve {
+    display:flex;
+    /* margin: 10%; */
+}
