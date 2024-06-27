@@ -97,7 +97,7 @@ footer {
     width: 100%;
 }
 
-#achieve {
-    display:flex;
-    /* margin: 10%; */
+#column {
+    width: 25%;
+    float: left;
 }
